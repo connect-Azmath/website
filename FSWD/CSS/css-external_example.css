@@ -1,0 +1,30 @@
+h3{
+    color: blue;
+    background-color: black;
+}
+h4{
+    color: rgb(33, 225, 132);
+    background-color: black;
+}
+p{
+    color: rgb(58, 220, 68);
+}
+#fswd{
+    color: aquamarine;
+}
+.fs{
+    color: pink;
+    background-color: black;
+}
+h6{
+    background-color: red;
+}
+#testid{
+    background-color: aqua;
+}
+#testid2{
+    background-color: purple;
+}
+.testclass{
+    background-color: pink;
+}

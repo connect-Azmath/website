@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Element Selectors </title>
+           <style>
+            /* Eleent selector */
+            h4{
+                color: black;
+                background-color: yellow;
+            }
+            
+            /* Eleent selector List */
+            h2, p, h5{
+                color: black;
+                background-color: yellow;
+            }
+
+            /* Universal selector */
+            *{
+                color: blue;
+                background-color: palegreen;
+            }
+         /* ID selector   */
+            #ES_id{
+                color: aqua;
+                background-color: black;
+            }
+
+            #ES_id2{
+                color: aqua;
+                background-color: black;
+            }
+        /* Class selector   */
+            .ES_class{
+                color: aliceblue;
+                background-color: bisque;
+            }
+
+        /* Descendant selector   */
+            ol a{  
+                color: red;
+            }
+            /* li a works as well */
+
+        /* Direct child selector   */
+        div > h3{
+            color: pink;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <h1 style="background-color: brown;"> Block scope example</h4>
+        <span style="background-color: blueviolet;"> Inline scope example </span>
+        
+        <!--   /* Element, id & Class selectors */ -->  
+        <h4>CSS Selectors Demo</h4>
+        <h4>CSS Selectors Demo</h4>
+        <h4 id="ES_id">CSS Selectors ES_id Demo</h4>
+        <span id="ES_id2">CSS Selectors Span-ES_id2 Demo</span>
+        <h4 class="ES_class">CSS Selectors ES_class Demo</h4>
+        <h4 class="ES_class">CSS Selectors ES_class Demo</h4>
+        <h4>CSS Selectors Demo</h4>
+        <h4>CSS Selectors Demo</h4>
+        <h4>CSS Selectors Demo</h4>
+
+        <!--   /* Element selector List */ -->
+            <h2>Hey h2</h2>
+            <p> hey P</p>
+            <h5>hey h5</h5>
+
+        <!-- Descendant selector -->
+        <ol>
+            <h6>Ordered List</h6>
+            <li><a href="#">Hey its anchor IN 1</a></li>
+            <li><a href="#">Hey its anchor IN 2</a></li>
+            <li><a href="#">Hey its anchor IN 3</a></li>
+            <li><a href="#">Hey its anchor IN 4</a></li>
+            <li><a href="#">Hey its anchor IN 5</a></li>
+        </ol>
+        
+        <a href="#">Hey its anchor OUT 1</a> 
+        <br/>
+        <a href="#">Hey its anchor OUT 2</a> 
+
+        <!-- /* Direct child selector   */ -->
+        <div>
+            <span><h3>Hey div span h3</h3></span>
+            <h3>Hey div h3</h3>
+        </div>
+        <h3>Hey h3</h3>
+    </body>
+</html>

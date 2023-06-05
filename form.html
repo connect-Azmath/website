@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, th, td{
+        border: 2px solid blue;
+        border-collapse:separate;
+        text-align: center;
+        
+    }
+    th, td{
+        background-color: indianred;
+    }
+    </style>
+    
+</head>
+<body bgcolor="gray">
+    <form>
+        <label for="name">First Name: </label>        
+        <input type="text" name="fname" value="full name">
+        <br>
+        <label for="mail">Enter your mail ID</label>  
+        <input type="text" name="mail" value="Email ID">
+        <br>
+        <label for="pswd">Enter your Password</label>  
+        <input type="text" name="pswd" value="Password">
+        <br>
+        <br>
+        <label for="html">HTML</label>
+        <input type="radio" name="HTML" value="Programing-lang">
+        <label for="css">CSS</label>
+        <input type="radio" name="CSS" value="Programing-lang">
+        <br>   <br>
+        <label for="html">Java</label>
+        <input type="checkbox" name="java" value="Programing-lang">
+        <br>
+        <br>
+        <label for="favcolor">Select fav color: </label>
+        <input type="color" id="favcolor" name="favcolor" value="#000">
+        <br><br><br>
+        <label for="desc">Description: </label>
+       
+        <textarea name="class" id="description" cols="30" rows="4">Hi,  Plese enter the description</textarea>
+<br>
+<br>
+        <button style="border: 1px; background-color: yellowgreen;">Submit</button>
+    </form>
+</body>
+</html>

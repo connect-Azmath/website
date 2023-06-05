@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Specificity in CSS </title>
+        <style>
+            /* internl CSS */
+            h6{
+                color: bisque;
+                background-color: blue;
+            }
+            #testid{
+                background-color: aqua;
+            }
+            #testid2{
+                background-color: purple;
+            }
+            .testclass{
+                background-color: pink;
+            }
+        </style>         
+        <!-- /* externl CSS */ -->
+        <link rel="stylesheet" href="css-external_example.css">
+    </head>
+    <body>
+        <h3>CSS Specificity</h3>
+        <!-- Inline CSS -->
+        <h6 style="background-color: green;"> Hey , this is H6 using Inline CSS</h6>
+        <h6>Test</h6>
+
+        <h5 id="testid" class="testclass">Hey ID selecor inline css h5</h5>
+        <h5>Test h5 specificity for id & class</h5>
+        <h5 id="testid2" >Test h5 specificity for id </h5>
+        <h5 class="testclass">Test h5 specificity for class</h5>
+    </body>
+   
+    <!-- Specificity in CSS works as shown on below 
+    Inline CSS always on top
+    externl CSS & internl CSS goes with the order  they are present
+      
+    similarly
+    Id selector => class selector => Element selector 
+    -->
+</html>

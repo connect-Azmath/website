@@ -1,0 +1,39 @@
+h4{
+    color: aquamarine;
+}
+
+/* Hover state - Pointing cursor on a button*/
+button:hover{
+    color: blue;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* Active state - Indicates its active on holding left mouse key */ 
+button:active{
+    border: 10px solid yellow;
+}
+
+/* Focus state - Indicates we have clicked the button*/
+button:focus{
+    /* color: brown; */
+    background-color: palevioletred;
+}
+
+a:hover{
+    color: aqua;
+    /* cursor: all-scroll; */
+
+}
+
+a:active{
+    color: pink;
+}
+
+/* a:focus{
+    color: red;
+} */
+
+a:visited{
+    color: green;
+}
