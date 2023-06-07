@@ -1,0 +1,30 @@
+GitHub Repository:
+Main / master
+-branch1
+-branch2
+-branchn
+
+Version control tool - GitHub
+V 7.10.3
+V 7.11.0 (major release)
+V 7.12.3 (minor release)
+V 7.12.5 (minor change & may not need too much  config)
+
+Product / Software
+-Team of 12 members
+-3 Tech leads
+-9 SSEs (5 frontend & 4 backend)
+
+Requirements:
+initial req 5 Features
+
+
+Branch1 (5f)
+Master/main
+ push Branch1 to master
+
+addiional req 2 features
+Branch2 (5f + 2f)
+ if everything is fine then push to master (Prod)
+
+in case any issues in future cause of 2f new feature then we may go back to Branch1 & push it to Main/master
