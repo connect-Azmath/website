@@ -1,0 +1,9 @@
+span:first-child{
+    color: yellow;
+}
+span:last-child{
+    color: pink;
+}
+span:nth-child(3){
+    color: blue;
+}
